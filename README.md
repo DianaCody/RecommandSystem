@@ -3,7 +3,7 @@
 
 ------
 
-### ** Personal Recommand System (Item-Based CF)**
+### * Personal Recommand System (Item-Based CF) *
 #### * 用户推荐系统 *
 ##### 1. 基于商品的协同过滤（Item-Based CF）
 
