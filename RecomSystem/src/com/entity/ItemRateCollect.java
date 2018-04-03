@@ -28,7 +28,7 @@ public class ItemRateCollect {
 	
 	public void recordRate(Integer itemId, Integer userId, Double rate){
 		if(this.itemCollect.containsKey(itemId)){
-			ItemRate itemRate = this.itemCollect.remove(itemId);
+			ItemRate itemRate = this.itemCollect.get(itemId);
 			itemRate.recordRate(userId, rate);
 		}
 		else{
